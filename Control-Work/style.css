@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.w-1440{
+    width: 1440px;
+}
+.background{
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+/*---------------------- nav-menu --------------------------*/
+header {
+    width: 1250px;
+    height: 86px;
+    margin: 0 auto;
+}
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav div h3{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+nav div h3::after{
+    content: ".Blog";
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav ul li{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+nav ul li:nth-child(4)::before{
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url("img/search.png");
+    margin-right: 10px;
+}
+nav ul li:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #6246EA;
+    width: 213px;
+    height: 44px;
+    gap: 10px;
+}
+nav ul li:nth-child(5) a{
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+nav ul li:nth-child(5)::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("img/buymeacoffee.png");
+}
+/*------------------------ main --------------------------*/
+
