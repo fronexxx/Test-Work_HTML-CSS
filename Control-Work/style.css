@@ -2,8 +2,9 @@
 body{
     font-family: "Plus Jakarta Sans", sans-serif;
 }
-.w-1440{
-    width: 1440px;
+.w-1440-fixed{
+    width: 100%;
+    position: fixed;
 }
 .background{
     background: #EFF0F3;
@@ -85,4 +86,313 @@ nav ul li:nth-child(5)::before{
     background-image: url("img/buymeacoffee.png");
 }
 /*------------------------ main --------------------------*/
+.w-1440-2{
+    width: 100%;
+}
+.background-2{
+    background: #EFF0F3;
+}
 
+.front-end-dev{
+    width: 1250px;
+    height: 814px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title h3{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.title div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.line{
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+}
+.title div:nth-child(2) p{
+    width: 652px;
+    color: #9A9494;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+form div{
+    display: flex;
+    gap: 20px;
+}
+input[type="email"]{
+    width: 444px;
+    height: 67px;
+    border: none;
+    border-radius: 8px;
+    background: #FFFFFE;
+    padding: 21px 200px 21px 25px;
+}
+input[type="email"]::placeholder{
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input[type="submit"]{
+    width: 145px;
+    height: 67px;
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #6246EA;
+    border: none;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*----------------------- main__section-category------------------------*/
+.w-1440-3{
+    width: 100%;
+}
+.category{
+    width: 1250px;
+    height: 500px;
+    margin: 0 auto;
+}
+.browse-the-category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.browse-the-category h5{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse-the-category a{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse-the-category a::after{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    background-image: url("img/arrow.png");
+    margin-left: 12px;
+    padding-right: 1px;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+
+}
+.card {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+}
+.violet{
+    background: #6246EA;
+}
+.logo_p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 35px;
+}
+.logo_p p{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.tailwind{
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card:nth-child(3) p{
+    color: #FFFFFE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*---------------------- main__section-featured-article ------------------------*/
+.background-3{
+    background: #FFFFFE;
+}
+.featured-article{
+    width: 1250px;
+    height: 2344px;
+    margin: 80px auto 0 auto;
+}
+.featured-article-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.featured-article-flex h5{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.featured-article-flex a{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.featured-article-flex a::after{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    background-image: url("img/arrow.png");
+    margin-left: 12px;
+    padding-right: 1px;
+}
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+.item{
+    width: 300px;
+    height: 425px;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item div:nth-child(1){
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.item div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item div:nth-child(2) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.item h4{
+    width: 260px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.item h5{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.item p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+span{
+    padding: 0 10px;
+}
+.button-more-article{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 80px 0;
+}
